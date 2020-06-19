@@ -4,15 +4,37 @@ body{
     background: transparent;
 }
 .logo{
-    position: absolute;
+    position: absolute;  
+    top: 30%;
+    left: 40%;
 }
 .search-box{
-    position: justify;
+    position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background: yellow;
+    background: transparent;
     height: 40px;
     border-radius: 40px;
-    padding: 40px;
+    padding: 10px;
+}
+.search-btn {
+	box-shadow:inset 0px 1px 0px 0px #f2f5f0;
+	background-color:transparent;
+	border:1px solid #0a0a0a;
+	display:inline-block;
+	cursor:pointer;
+	color:#050505;
+	font-family:Arial;
+	font-size:10px;
+	font-weight:bold;
+	padding:4px 9px;
+	text-decoration:none;
+}
+.search-btn:hover {
+	background-color:transparent;
+}
+.search-btn:active {
+	position:relative;
+	top:1px;
 }
