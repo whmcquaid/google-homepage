@@ -1,0 +1,18 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: transparent;
+}
+.logo{
+    position: absolute;
+}
+.search-box{
+    position: justify;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: yellow;
+    height: 40px;
+    border-radius: 40px;
+    padding: 40px;
+}
