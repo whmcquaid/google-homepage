@@ -3,8 +3,36 @@ body{
     padding: 0;
     background: transparent;
 }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+  }
+  
+  #topnav {
+    float: right;
+  }
+  #endnav {
+float: left;
+  }
+  #footnav {
+     position: absolute;
+     bottom:0;
+  }
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  li a:hover {
+    background-color: #d8d8da;
+}
 .logo{
-    position: absolute;  
+    position: absolute; 
     top: 30%;
     left: 40%;
 }
