@@ -4,7 +4,7 @@
     margin: 0;}
 body{
     font-family: 'Roboto', sans-serif;
-    color: #222
+    color: black
 }
 main{
     position: fixed;
@@ -42,8 +42,8 @@ main{
     font-weight: 200;}
 .buttons button:hover{
     cursor: pointer;
-    color: #333;
-    border: #999 solid 1px;}
+    color: black;
+    border:grey solid 1px;}
 .navbar{
     height: 10vh;
     display: flex;
@@ -51,25 +51,25 @@ main{
     align-content: center;}
 .navbar li{
     display: inline-flex;
-    padding-top: 1em;
-    padding-right: 1em;
+    padding-top: 13px;
+    padding-right: 13px;
     font-size: 0.8em;
     font-weight: 300;}
 #sign{
     border: none;
     height: 30px;
-    margin-right: 1em;
-    padding: 0 1em;
+    margin-right: 13px;
+    padding: 0 13px;
     border-radius: 2px;
     color: white;
-    background-color: #06f;
+    background-color: blue;
     font-weight: 500;
-    font-size: 1em;}
+    font-size: 13px;}
 .navbar a{
 color: black;
 text-decoration: none;}
 .footbar{
-    background-color: #f2f2f2;
+    background-color: lightgrey;
     position: fixed;
     bottom: 0;
     height: 8vh;
@@ -81,9 +81,9 @@ text-decoration: none;}
 .footbar li a{
     margin-top: 0.8em;
     padding: 0.8em;
-    color: #222;
+    color: black;
     text-decoration: none;
-    font-size: 0.9em;}
+    font-size: 12px;}
 .left {
     margin-right: 2em;
 }
