@@ -1,39 +1,49 @@
 <!--project one the odin project google-homepage-->
-<html>
+<html lang:en>
     <main>
         <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <link rel="stylesheet" href="style.css">
     <title>Google</title>
    </head>
-   <header>
-    <nav>
-        <div>
-         <ul>
-            <li id="topnav"><a href="#More">More</a></li>
-            <li id="topnav"><a href="#Images">Images</a></li>
-            <li id="topnav"><a href="#Gmail">Gmail</a></li>
-          </ul>
-        </div>
-      </nav>
-   </header>
-    <body>
-        <img class="logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+   <!--a container to align the logo, search box, and buttons-->
+   <body>
+        <div class="container">
+        <img id="logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Official Google Logo">
    <div class="search-box">
-       <input class="search-txt" type="text" name="" placeholder="Type to search">
-<a href="#" class="search-btn">Go</a>
-       </a>
-   </div>
- </body>
- <footer>
-     <nav>
-     <div id="footnav">
+       <input id="search-txt" type="text" placeholder="  Search or Enter URL">
+<div class="buttons">
+       <button>Google Search</button>
+       <button>Im Feeling Lucky</button>
+    </div>   
+    </div>
+        </div>
+    </main>
+ <!--top right nav bar-->
+    <div class="navbar">
+     <ul>
+        <li><a href="#">Gmail</a></li>
+        <li><a href="#">Images</a></li>
+        <li><button id="sign">Sign In</button></li>
+      </ul>
+      </div>
+     <!--footer bar-->
+     <div class="footbar">
+         <div class="right">
          <ul>
-             <li id="endnav"><a href="#advertising">Advertising</a></li>
-             <li id="endnav"><a href="#Business">Business</a></li>
-             <li id="endnav"><a href="#howsearchworks">How Search Works</a></li>
+             <li><a href="#">Advertising</a></li>
+             <li><a href="#">Business</a></li>
+             <li><a href="#">How Search Works</a></li>
          </ul>
-</nav>
-     </div>
- </footer>
-</main>
-</html>
+        </div>
+        <div class="left">
+            <ul>
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Terms</a></li>
+                <li><a href="#">Settings</a></li>
+            </ul>
+        </div>
+        </div>
+    </body>
+     </html>
